@@ -7,7 +7,6 @@ import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 
 class RewardRepository {
-
     private val orderRewards = mutableListOf<OrderReward>()
 
     init {
